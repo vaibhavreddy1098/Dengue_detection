@@ -1,0 +1,27 @@
+{
+  "day": 26,
+  "coordinator": {
+    "stub": true,
+    "model": "gemini-1.5-pro",
+    "prompt_length": 3641,
+    "message": "Live LLM response available when GEMINI_API_KEY / OPENAI_API_KEY is set."
+  },
+  "epidemic": {
+    "stub": true,
+    "model": "gemini-1.5-pro",
+    "prompt_length": 2444,
+    "message": "Live LLM response available when GEMINI_API_KEY / OPENAI_API_KEY is set."
+  },
+  "resource": {
+    "stub": true,
+    "model": "gemini-1.5-pro",
+    "prompt_length": 1543,
+    "message": "Live LLM response available when GEMINI_API_KEY / OPENAI_API_KEY is set."
+  },
+  "communication": {
+    "stub": true,
+    "model": "gemini-1.5-flash",
+    "prompt_length": 455,
+    "message": "Live LLM response available when GEMINI_API_KEY / OPENAI_API_KEY is set."
+  }
+}

@@ -1,0 +1,1037 @@
+{
+  "day": 5,
+  "zones": {
+    "ZONE_CENTRAL": {
+      "confirmed_cases": 9.0,
+      "estimated_true_cases": 37.800000000000004,
+      "risk_score": 0.0,
+      "alert_level": "GREEN",
+      "breteau_index": 24.39,
+      "rainfall_mm": 0.0,
+      "temp_c": 29.5,
+      "rl_action": "ULV_Fogging",
+      "rl_reward": -24.0
+    },
+    "ZONE_WEST": {
+      "confirmed_cases": 4.0,
+      "estimated_true_cases": 12.4,
+      "risk_score": 0.013830266501240668,
+      "alert_level": "GREEN",
+      "breteau_index": 23.57,
+      "rainfall_mm": 0.0,
+      "temp_c": 32.8,
+      "rl_action": "Monitor_Only",
+      "rl_reward": -27.5
+    },
+    "ZONE_NORTH": {
+      "confirmed_cases": 5.0,
+      "estimated_true_cases": 11.5,
+      "risk_score": 0.4593517990070922,
+      "alert_level": "YELLOW",
+      "breteau_index": 18.64,
+      "rainfall_mm": 0.0,
+      "temp_c": 33.7,
+      "rl_action": "Monitor_Only",
+      "rl_reward": -27.5
+    },
+    "ZONE_EAST": {
+      "confirmed_cases": 3.0,
+      "estimated_true_cases": 9.3,
+      "risk_score": 0.3138302665012407,
+      "alert_level": "YELLOW",
+      "breteau_index": 20.96,
+      "rainfall_mm": 0.9,
+      "temp_c": 31.7,
+      "rl_action": "Monitor_Only",
+      "rl_reward": -27.5
+    },
+    "ZONE_SOUTH": {
+      "confirmed_cases": 6.0,
+      "estimated_true_cases": 25.200000000000003,
+      "risk_score": 0.40935179900709223,
+      "alert_level": "YELLOW",
+      "breteau_index": 33.34,
+      "rainfall_mm": 10.6,
+      "temp_c": 35.0,
+      "rl_action": "ULV_Fogging",
+      "rl_reward": -24.0
+    },
+    "ZONE_NORTH_WEST": {
+      "confirmed_cases": 9.0,
+      "estimated_true_cases": 20.7,
+      "risk_score": 0.4593517990070922,
+      "alert_level": "YELLOW",
+      "breteau_index": 20.62,
+      "rainfall_mm": 7.8,
+      "temp_c": 28.1,
+      "rl_action": "Monitor_Only",
+      "rl_reward": -27.5
+    },
+    "ZONE_SOUTH_WEST": {
+      "confirmed_cases": 5.0,
+      "estimated_true_cases": 15.5,
+      "risk_score": 0.34775168281105995,
+      "alert_level": "YELLOW",
+      "breteau_index": 26.4,
+      "rainfall_mm": 0.0,
+      "temp_c": 28.9,
+      "rl_action": "Monitor_Only",
+      "rl_reward": -27.5
+    }
+  },
+  "plan_steps": [
+    {
+      "step_id": 0,
+      "day": 5,
+      "zone_id": "ZONE_NORTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 1,
+      "day": 5,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 2,
+      "day": 5,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 3,
+      "day": 5,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 4,
+      "day": 5,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 5,
+      "day": 5,
+      "zone_id": "ZONE_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 6,
+      "day": 5,
+      "zone_id": "ZONE_EAST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    }
+  ],
+  "routing_results": [
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 1
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 1
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 2
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 2
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 3
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 3
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 4
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 4
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 4
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 4
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 4
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 4
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 4
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 4
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 4
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 4
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_EAST",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_EAST"
+      ],
+      "cost": 16.85,
+      "time_min": 39.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 5
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 5
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH_WEST",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH",
+        "ZONE_WEST",
+        "ZONE_SOUTH_WEST"
+      ],
+      "cost": 31.84,
+      "time_min": 64.0,
+      "day": 5
+    }
+  ]
+}

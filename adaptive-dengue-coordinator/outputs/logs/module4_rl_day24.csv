@@ -1,0 +1,8 @@
+day,zone_id,state,alert,risk,rl_action,reward_qlearning,reward_sarsa,reward_greedy,reward_static
+24,ZONE_CENTRAL,25,YELLOW,0.4368,ULV_Fogging,-24.0,-27.5,-14.0,-24.0
+24,ZONE_WEST,13,YELLOW,0.4294,Monitor_Only,-29.5,-28.5,-28.5,-27.5
+24,ZONE_NORTH,12,YELLOW,0.3478,Monitor_Only,-27.5,-27.8,-28.5,-27.5
+24,ZONE_EAST,12,YELLOW,0.4594,Monitor_Only,-29.5,-29.5,-28.5,-27.5
+24,ZONE_SOUTH,25,ORANGE,0.5732,ULV_Fogging,-27.5,-29.5,-24.0,-24.0
+24,ZONE_NORTH_WEST,12,YELLOW,0.3178,Monitor_Only,-28.5,-27.5,-28.5,-27.5
+24,ZONE_SOUTH_WEST,24,YELLOW,0.4981,Monitor_Only,-27.5,-27.5,-14.0,-27.5

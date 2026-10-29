@@ -1,0 +1,820 @@
+{
+  "day": 22,
+  "replan": true,
+  "plan": [
+    {
+      "step_id": 0,
+      "day": 22,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 1,
+      "day": 22,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 2,
+      "day": 22,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 3,
+      "day": 22,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 4,
+      "day": 22,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 5,
+      "day": 22,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 6,
+      "day": 22,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 7,
+      "day": 23,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 8,
+      "day": 23,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 9,
+      "day": 23,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 10,
+      "day": 23,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 11,
+      "day": 23,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 12,
+      "day": 23,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 13,
+      "day": 23,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 14,
+      "day": 24,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 15,
+      "day": 24,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 16,
+      "day": 24,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 17,
+      "day": 24,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 18,
+      "day": 24,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 19,
+      "day": 24,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 20,
+      "day": 24,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 21,
+      "day": 25,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 22,
+      "day": 25,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 23,
+      "day": 25,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 24,
+      "day": 25,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 25,
+      "day": 25,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 26,
+      "day": 25,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 27,
+      "day": 25,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 28,
+      "day": 26,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 29,
+      "day": 26,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 30,
+      "day": 26,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 31,
+      "day": 26,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 32,
+      "day": 26,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 33,
+      "day": 26,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 34,
+      "day": 26,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 35,
+      "day": 27,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 36,
+      "day": 27,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 37,
+      "day": 27,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 38,
+      "day": 27,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 39,
+      "day": 27,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 40,
+      "day": 27,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 41,
+      "day": 27,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 42,
+      "day": 28,
+      "zone_id": "ZONE_CENTRAL",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 43,
+      "day": 28,
+      "zone_id": "ZONE_WEST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 44,
+      "day": 28,
+      "zone_id": "ZONE_EAST",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 45,
+      "day": 28,
+      "zone_id": "ZONE_SOUTH",
+      "action": "ULV_Fogging",
+      "preconditions": [
+        "spray_teams_available >= 1",
+        "risk_score >= 0.25"
+      ],
+      "effects": [
+        "adult_vector_index -= 0.4",
+        "risk_score -= 0.10"
+      ],
+      "cost_inr": 30000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 46,
+      "day": 28,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 47,
+      "day": 28,
+      "zone_id": "ZONE_NORTH",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    },
+    {
+      "step_id": 48,
+      "day": 28,
+      "zone_id": "ZONE_NORTH_WEST",
+      "action": "Breeding_Site_Inspection",
+      "preconditions": [
+        "surv_teams_available >= 1"
+      ],
+      "effects": [
+        "breteau_index -= 3",
+        "risk_score -= 0.05"
+      ],
+      "cost_inr": 15000,
+      "status": "PLANNED"
+    }
+  ],
+  "critical_path": [
+    "D22_ZONE_CENTRAL_0",
+    "D22_ZONE_WEST_1",
+    "D22_ZONE_EAST_2",
+    "D22_ZONE_SOUTH_3",
+    "D22_ZONE_SOUTH_WEST_4",
+    "D22_ZONE_NORTH_5",
+    "D22_ZONE_NORTH_WEST_6",
+    "D23_ZONE_CENTRAL_7",
+    "D23_ZONE_WEST_8",
+    "D23_ZONE_EAST_9",
+    "D23_ZONE_SOUTH_10",
+    "D23_ZONE_SOUTH_WEST_11",
+    "D23_ZONE_NORTH_12",
+    "D23_ZONE_NORTH_WEST_13",
+    "D24_ZONE_CENTRAL_14",
+    "D24_ZONE_WEST_15",
+    "D24_ZONE_EAST_16",
+    "D24_ZONE_SOUTH_17",
+    "D24_ZONE_SOUTH_WEST_18",
+    "D24_ZONE_NORTH_19",
+    "D24_ZONE_NORTH_WEST_20",
+    "D25_ZONE_CENTRAL_21",
+    "D25_ZONE_WEST_22",
+    "D25_ZONE_EAST_23",
+    "D25_ZONE_SOUTH_24",
+    "D25_ZONE_SOUTH_WEST_25",
+    "D25_ZONE_NORTH_26",
+    "D25_ZONE_NORTH_WEST_27",
+    "D26_ZONE_CENTRAL_28",
+    "D26_ZONE_WEST_29",
+    "D26_ZONE_EAST_30",
+    "D26_ZONE_SOUTH_31",
+    "D26_ZONE_SOUTH_WEST_32",
+    "D26_ZONE_NORTH_33",
+    "D26_ZONE_NORTH_WEST_34",
+    "D27_ZONE_CENTRAL_35",
+    "D27_ZONE_WEST_36",
+    "D27_ZONE_EAST_37",
+    "D27_ZONE_SOUTH_38",
+    "D27_ZONE_SOUTH_WEST_39",
+    "D27_ZONE_NORTH_40",
+    "D27_ZONE_NORTH_WEST_41",
+    "D28_ZONE_CENTRAL_42",
+    "D28_ZONE_WEST_43",
+    "D28_ZONE_EAST_44",
+    "D28_ZONE_SOUTH_45",
+    "D28_ZONE_SOUTH_WEST_46",
+    "D28_ZONE_NORTH_47",
+    "D28_ZONE_NORTH_WEST_48"
+  ]
+}

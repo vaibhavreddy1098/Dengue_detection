@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "A_ResourceCollapse",
+    "feasible": true,
+    "bottlenecks": [
+      "No bottlenecks detected \u2013 all constraints satisfied."
+    ],
+    "PASS": false
+  },
+  {
+    "scenario": "B_EpidemicSurge",
+    "P_RED": 0.46,
+    "risk_score": 0.7226,
+    "PASS": false
+  },
+  {
+    "scenario": "C_GraphPartition",
+    "path": [
+      "DEPOT_01",
+      "ZONE_CENTRAL",
+      "ZONE_NORTH"
+    ],
+    "cost": 4.02,
+    "PASS": true
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "day": 26,
+  "log": [
+    {
+      "day": 26,
+      "zone_id": "ZONE_CENTRAL",
+      "state": 24,
+      "alert": "YELLOW",
+      "risk": 0.2981,
+      "rl_action": "ULV_Fogging",
+      "reward_qlearning": -27.5,
+      "reward_sarsa": -11.0,
+      "reward_greedy": -24.0,
+      "reward_static": -24.0
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_WEST",
+      "state": 24,
+      "alert": "ORANGE",
+      "risk": 0.5368,
+      "rl_action": "Monitor_Only",
+      "reward_qlearning": -27.5,
+      "reward_sarsa": -27.5,
+      "reward_greedy": -24.0,
+      "reward_static": -27.5
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_NORTH",
+      "state": 12,
+      "alert": "YELLOW",
+      "risk": 0.4594,
+      "rl_action": "Monitor_Only",
+      "reward_qlearning": -27.5,
+      "reward_sarsa": -27.8,
+      "reward_greedy": -28.5,
+      "reward_static": -27.5
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_EAST",
+      "state": 15,
+      "alert": "YELLOW",
+      "risk": 0.3589,
+      "rl_action": "Monitor_Only",
+      "reward_qlearning": -28.5,
+      "reward_sarsa": -27.5,
+      "reward_greedy": -28.5,
+      "reward_static": -27.5
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_SOUTH",
+      "state": 24,
+      "alert": "YELLOW",
+      "risk": 0.4868,
+      "rl_action": "ULV_Fogging",
+      "reward_qlearning": -27.8,
+      "reward_sarsa": -27.8,
+      "reward_greedy": -24.0,
+      "reward_static": -14.0
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_NORTH_WEST",
+      "state": 12,
+      "alert": "YELLOW",
+      "risk": 0.4294,
+      "rl_action": "Monitor_Only",
+      "reward_qlearning": -28.5,
+      "reward_sarsa": -27.5,
+      "reward_greedy": -28.5,
+      "reward_static": -27.5
+    },
+    {
+      "day": 26,
+      "zone_id": "ZONE_SOUTH_WEST",
+      "state": 24,
+      "alert": "YELLOW",
+      "risk": 0.4981,
+      "rl_action": "Monitor_Only",
+      "reward_qlearning": -27.5,
+      "reward_sarsa": -27.5,
+      "reward_greedy": -14.0,
+      "reward_static": -27.5
+    }
+  ]
+}

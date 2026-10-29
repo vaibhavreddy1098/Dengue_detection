@@ -1,0 +1,9 @@
+facility_id,facility_name,facility_type,zone_id,lat,lon,total_bed_capacity,icu_bed_capacity,daily_pcr_kit_capacity,spray_teams_stationed,surveillance_teams_stationed,vehicles_available
+HOSP_01,"King George Hospital (KGH), Maharanipeta",Hospital,ZONE_CENTRAL,17.7178,83.3019,1237,35,90,0,3,4
+HOSP_02,Area Hospital Seethammadhara,Hospital,ZONE_NORTH,17.7437,83.325,150,25,75,0,3,3
+HOSP_03,Area Hospital Gajuwaka,Hospital,ZONE_SOUTH,17.6891,83.1989,150,25,60,0,2,2
+LAB_01,"District Public Health Laboratory, Visakhapatnam",Testing_Lab,ZONE_CENTRAL,17.718,83.303,0,0,450,0,0,0
+LAB_02,Gajuwaka Zonal Testing Laboratory,Testing_Lab,ZONE_SOUTH,17.6905,83.201,0,0,320,0,0,0
+DEPOT_01,GVMC Suryabagh Zonal Office (Fogging Depot),Vector_Depot,ZONE_CENTRAL,17.722,83.304,0,0,0,4,3,5
+DEPOT_02,GVMC Gajuwaka Zonal Office (Vector Depot),Vector_Depot,ZONE_SOUTH,17.688,83.1995,0,0,0,3,4,6
+DEPOT_03,GVMC Gnanapuram Zonal Office (Field Office),Vector_Depot,ZONE_WEST,17.725,83.292,0,0,0,2,2,2

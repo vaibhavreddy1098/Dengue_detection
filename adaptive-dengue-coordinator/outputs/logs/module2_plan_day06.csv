@@ -1,0 +1,50 @@
+step_id,day,zone_id,action,preconditions,effects,cost_inr,status
+0,6,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+1,6,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+2,6,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+3,6,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+4,6,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+5,6,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+6,6,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+7,7,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+8,7,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+9,7,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+10,7,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+11,7,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+12,7,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+13,7,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+14,8,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+15,8,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+16,8,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+17,8,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+18,8,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+19,8,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+20,8,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+21,9,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+22,9,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+23,9,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+24,9,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+25,9,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+26,9,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+27,9,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+28,10,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+29,10,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+30,10,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+31,10,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+32,10,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+33,10,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+34,10,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+35,11,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+36,11,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+37,11,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+38,11,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+39,11,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+40,11,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+41,11,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+42,12,ZONE_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+43,12,ZONE_SOUTH,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+44,12,ZONE_NORTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+45,12,ZONE_SOUTH_WEST,ULV_Fogging,"['spray_teams_available >= 1', 'risk_score >= 0.25']","['adult_vector_index -= 0.4', 'risk_score -= 0.10']",30000,PLANNED
+46,12,ZONE_CENTRAL,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+47,12,ZONE_NORTH,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED
+48,12,ZONE_EAST,Breeding_Site_Inspection,['surv_teams_available >= 1'],"['breteau_index -= 3', 'risk_score -= 0.05']",15000,PLANNED

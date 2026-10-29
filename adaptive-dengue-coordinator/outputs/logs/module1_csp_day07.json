@@ -1,0 +1,173 @@
+{
+  "day": 7,
+  "routing": [
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_CENTRAL",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 7
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_01",
+      "destination": "ZONE_NORTH",
+      "path": [
+        "DEPOT_01",
+        "ZONE_CENTRAL",
+        "ZONE_NORTH"
+      ],
+      "cost": 4.02,
+      "time_min": 12.0,
+      "day": 7
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_02",
+      "destination": "ZONE_SOUTH",
+      "path": [
+        "DEPOT_02",
+        "ZONE_SOUTH"
+      ],
+      "cost": 0.5,
+      "time_min": 2.0,
+      "day": 7
+    },
+    {
+      "algorithm": "UCS",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 7
+    },
+    {
+      "algorithm": "A*",
+      "source": "DEPOT_03",
+      "destination": "ZONE_NORTH_WEST",
+      "path": [
+        "DEPOT_03",
+        "ZONE_WEST",
+        "ZONE_NORTH_WEST"
+      ],
+      "cost": 16.58,
+      "time_min": 31.0,
+      "day": 7
+    }
+  ],
+  "csp": {
+    "feasible": true,
+    "assignment": {
+      "ZONE_CENTRAL": {
+        "spray": 9,
+        "surv": 17,
+        "kits": 540
+      },
+      "ZONE_WEST": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 0
+      },
+      "ZONE_NORTH": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 75
+      },
+      "ZONE_NORTH_WEST": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 0
+      },
+      "ZONE_SOUTH": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 380
+      },
+      "ZONE_EAST": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 0
+      },
+      "ZONE_SOUTH_WEST": {
+        "spray": 0,
+        "surv": 0,
+        "kits": 0
+      }
+    },
+    "violations": [],
+    "bottlenecks": [
+      "No bottlenecks detected \u2013 all constraints satisfied."
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+zone_id,zone_name,population,area_sqkm,centroid_lat,centroid_lon,base_biting_rate_b0,vector_to_host_ratio_m,symptomatic_fraction_p,baseline_r0,vulnerability_tier
+ZONE_CENTRAL,Suryabagh,720000,24.5,17.7215,83.305,0.132,3.385,0.028,2.21,High
+ZONE_WEST,Gnanapuram,610000,31.2,17.724,83.293,0.103,3.397,0.054,1.75,Medium
+ZONE_NORTH,Asilmetta,540000,38.0,17.745,83.315,0.125,2.021,0.062,1.64,Low
+ZONE_EAST,Madhurawada,480000,19.6,17.815,83.38,0.131,2.211,0.06,1.8,Medium
+ZONE_SOUTH,Gajuwaka,690000,27.4,17.687,83.2,0.101,4.62,0.06,2.0,High
+ZONE_NORTH_WEST,Vepagunta,410000,35.8,17.815,83.218,0.101,4.815,0.078,2.06,Low
+ZONE_SOUTH_WEST,Anakapalli,455000,22.1,17.69,83.005,0.12,3.0,0.053,1.9,Medium
